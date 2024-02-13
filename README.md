@@ -63,6 +63,8 @@ Advanced:
   - M2 USB/Bluetooth: Enabled
   - Video Memory Size: 512Mb
 
+Check the photos in the bios_settings for the exact settings.
+
 ## Working/Features
 
 - The Fancy Boot Picker
