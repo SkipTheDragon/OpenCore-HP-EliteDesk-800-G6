@@ -967,7 +967,7 @@
 			<key>ROM</key>
 			<data>your-value-here</data>
 			<key>SystemSerialNumber</key>
-			<string>C07HQKYXJYVX</string>
+			<string>your-value-here</string>
 			<key>SystemUUID</key>
 			<string>your-value-here</string>
 		</dict>
@@ -1022,7 +1022,7 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C07HQKYXJYVX</string>
+			<string>your-value-here</string>
 			<key>SystemUUID</key>
 			<string>your-value-here</string>
 			<key>SystemVersion</key>

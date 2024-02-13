@@ -8,7 +8,7 @@ load_env_file() {
         fi
     done < "$file"
 }
-load_env_file ../.env
+load_env_file .env
 
 # Define the array containing search and replace pairs
 search_replace=(
@@ -33,6 +33,6 @@ function search_and_replace {
 }
 
 # Example usage
-search_and_replace "config.plist" "../EFI/OC/"
+search_and_replace "config.plist" "EFI/OC/"
 
 echo "Search and replace completed."
