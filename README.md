@@ -5,21 +5,33 @@ In this little guide I'm trying to showcase how a fully working macOS hackintosh
 ## Specifications
 
 CPU: i5-10500T
+
 GPU: Intel UHD Graphics 630
+
 RAM: 32GB DDR4 2133Mhz Hynix HMA82GS6MFR8N-TF
+
 Chipset: Intel Q470 PCH-H– vPro
+
 LAN: Intel I219-LM Gigabit Network Connection LOM (standard)
-WIFI/BT: AX200 for WIFI and ASUS-BT400 for Bluetooth (check SideNotes for reasons)
+
+WIFI/BT: AX200 for WIFI and ASUS-BT400 for Bluetooth (check SideNotes #1)
+
 SSD: KINGSTON SNV2S500G
+
 Peripherials: Keychron K8 Pro and Logitech MX Master 3 for Mac
+
 Monitors: DELL U2717D (DP) + LG 34WL85C-B (HDMI)
+
 Additional: 1 HDMI port + 2 USB ports extensions
+
 BIOS Version: not sure, will update later
 
 ## Versions
 
 OpenCore: 0.9.8
+
 Last Update of EFI: 11/02/2024
+
 Tested on: macOS Ventura Version 13.6.4 (22G513)
 
 ## Bios Settings
@@ -55,9 +67,9 @@ Advanced:
 
 - The Fancy Boot Picker
 - EFI Boot entry hidden
-- FileVault
+- FileVault - Check Side Notes #2
 - WIFI/BT
-- iMessage/Facetime (I already had some Apple devices so I didn't have to configure anything or it to work.)
+- iMessage/Facetime - Check Side Notes #3
 - CPU Power Management
   
 ## Not Working/Bugs
@@ -75,8 +87,9 @@ Advanced:
 
 ## Side Notes
 
-- The EliteDesk comes pre-installed with a AX201 most of the time, but since Bluetooth is quite troublesome in general for Hackintosh you must disable it, but surprise, you cannot disable Bluetooth on this card so you are forced to buy a AX200 card and then go to BIOS and disable BlueTooth.
-
+1. The EliteDesk comes pre-installed with a AX201 most of the time, but since Bluetooth is quite troublesome in general for Hackintosh you must disable it, but surprise, you cannot disable Bluetooth on this card so you are forced to buy a AX200 card and then go to BIOS and disable BlueTooth.
+2. FileVault is working but I disabled it because I have a BT keyboard and it won't load Bluetooth drivers or the USB prorts unless you input the password.
+3. I already had some Apple devices so I didn't have to configure anything or it to work.
 
 ## P.S
 

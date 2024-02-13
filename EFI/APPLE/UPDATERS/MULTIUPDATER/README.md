@@ -1,0 +1,1 @@
+Replace this folder with the recovery image from [Dortania's Guide Downloading macOS section](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/linux-install.html#downloading-macos) or just delete the folder in case you already have macOS installed and don't need the recovery.
