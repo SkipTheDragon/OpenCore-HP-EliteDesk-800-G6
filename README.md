@@ -31,9 +31,9 @@ BIOS Version: not sure, will update later
 
 OpenCore: 0.9.8
 
-Last Update of EFI: 11/02/2024
+Last Update of EFI: 22/05/2024
 
-Tested on: macOS Ventura Version 13.6.4 (22G513)
+Tested on: macOS Ventura Version 13.6.7 (22G720)
 
 ## Bios Settings
 
